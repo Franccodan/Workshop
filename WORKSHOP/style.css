@@ -1,0 +1,115 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-image: url(background.png);
+    background-repeat: no-repeat;
+    height: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.caixa {
+    margin: auto;
+    width: 100%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+
+.header img {
+    padding: 10px 15px;
+    margin: auto;
+    margin-left: 166px;
+}
+
+.header h1 {
+    text-align: center;
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+
+.header h2 {
+    text-align: center;
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+
+form {
+    text-align: center;
+    margin-top: 50px;
+    height: 29%;
+}
+
+label {
+    font-size: 25px;
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+
+input {
+    display: flex;
+    width: 50%;
+    height: 45px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+    border: 1px solid black;
+    margin: auto;
+}
+
+.radio {
+    display: inline;
+    width: 15px;
+    height: 15px;
+    text-align: center;
+    font-size: 10px;
+    padding: 10px;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.agre {
+    font-size: 10px;
+    padding: 0;
+    box-sizing: border-box;
+    margin: auto;
+    padding: 0 2px;
+    text-align: center;
+}
+
+.check {
+    font-size: 18px;
+    padding: 5px 5px;
+}
+
+.aceitar {
+    align-items: center;
+    margin: auto;
+    margin-top: 40px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+button {
+    width: 50%;
+    height: 45px;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    background: rgb(31, 53, 252);
+    color: white;
+    margin-top: -30px;
+}
